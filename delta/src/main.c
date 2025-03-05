@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
+#include "game/game_state.h"
+
 typedef enum ACTION
 {
   ACTION_NONE,
@@ -64,7 +66,8 @@ int main(int argc, char **argv)
     printf("Version\n");
     break;
   default:
-    printf("Unknown action\n");
+    init_game(&game);
+    print_game(&game);
     break;
   }
 

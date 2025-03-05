@@ -1,3 +1,8 @@
 {
-  "makefile.makefilePath": "./delta/Makefile"
+  "makefile.makefilePath": "./delta/Makefile",
+  "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+  "files.associations": {
+    "stdio.h": "c",
+    "wchar.h": "c"
+  }
 }
